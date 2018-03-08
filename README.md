@@ -1,6 +1,14 @@
-readme for GH JS Solutions repo
+# JavaScript Solutions 
+# Solutions to coding challenges written in JavaScript
 
-Code Challenge Descriptions:  
+### Author 
+
+Jenna Tucker @ jenna.m.tucker@gmail.com || 857-366-0630
+
+
+# Table of contents 
+
+## Code Challenge Descriptions:  
 1. abbreviate
 2. bind
 3. classes
