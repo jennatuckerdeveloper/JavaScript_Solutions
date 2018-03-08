@@ -131,8 +131,6 @@ For example:
 > receipt([10, 9, 25], 20)
 > '$56.76'
 
->>>>>UP TO HERE NOW<<<<<
-
 Write a function called splitTheBill that:
 
 Takes 2 arguments, the total cost (i.e. with tax and tip included), and an array of string names (e.g. ["Victoria", "Jessie", "Joseph"])
