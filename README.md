@@ -1,10 +1,22 @@
-# JavaScript Solutions 
+# JavaScript Solutions: 
 # Solutions to coding challenges written in JavaScript
 
 ### Author 
 
 Jenna Tucker @ jenna.m.tucker@gmail.com || 857-366-0630
 
+## Running the Script:
+
+These scripts are meant to be run in the command line using Node.js. 
+
+```command line
+:~$ node scriptName.js
+
+```
+
+### Requirements 
+
+Node.js.
 
 # Table of contents 
 
@@ -276,7 +288,7 @@ Write a simple closure. Then write a closure using an arrow function and an IIFE
 
 Write simple recursive functions.  
 
-## 23 binary search
+### 23 binary search
 
 Write a binary search algorithm.  
 
