@@ -28,10 +28,11 @@ Jenna Tucker @ jenna.m.tucker@gmail.com || 857-366-0630
 17. outlier 
 18. promises
 19. queenKing
-20. closures
-21. recursion
-22. binarySearch 
-23. sever report CLI (folder includes script, input file, and readme)
+20. sumDigPow
+21. closures
+22. recursion
+23. binarySearch 
+24. sever report CLI (folder includes script, input file, and readme)
 
 ### 1 abbreviate 
 
@@ -64,7 +65,7 @@ Bind a method to a JS object.
 
 Create a class and a class that inherits from a parent class.  
 
-###4 notString
+### 4 notString
 
 Given a string, return a new string where "not " has been added to the front. 
 However, if the string already begins with "not", return the string unchanged.
@@ -73,7 +74,7 @@ notString('candy') → 'not candy'
 notString('x') → 'not x'
 notString('not bad') → 'not bad'
 
-###5 missingChar
+### 5 missingChar
 
 Given a non-empty string and an int n, 
 return a new string where the char at index n has been removed.
@@ -84,7 +85,7 @@ missingChar('kitten', 1) → 'ktten'
 missingChar('kitten', 0) → 'itten'
 missingChar('kitten', 4) → 'kittn'
 
-###6 makeBricks
+### 6 makeBricks
 
 We want to make a row of bricks that is goal inches long.
 We have a number of small bricks (1 inch each) and big bricks (5 inches each).
@@ -95,7 +96,7 @@ console.assert(makeBricks(3, 1, 8) === true)
 console.assert(makeBricks(3, 1, 9) === false)
 console.assert(makeBricks(3, 2, 10) === true)
 
-###7 bistromathics 
+### 7 bistromathics 
 
 The Bistromathic Drive is a wonderful new method of crossing vast interstellar
 distances without all the dangerous mucking about with Improbability Factors.
@@ -146,7 +147,7 @@ For example:
 . "Joseph owes $40.76"
 . "Jessie owes $40.75"
 
-###8 front3
+### 8 front3
 
 Given a string, we'll say that the front is the first 3 chars of the string.
 If the string length is less than 3, the front is whatever is there.
@@ -157,7 +158,7 @@ front3('Chocolate') → 'ChoChoCho'
 front3('abc') → 'abcabcabc'
 front3('ab) -> 'ababab
 
-###9 stringTimes
+### 9 stringTimes
 
 Given a string and a non-negative int n, return a larger string that is n copies of the original string.
 
@@ -165,7 +166,7 @@ stringTimes('Hi', 2) → 'HiHi'
 stringTimes('Hi', 3) → 'HiHiHi'
 stringTimes('Hi', 1) → 'Hi'
 
-###10 stringBits
+### 10 stringBits
 
 Given a string, return a new string made of every other char starting with the first,
 so "Hello" yields "Hlo".
@@ -174,7 +175,7 @@ stringBits('Hello') → 'Hlo'
 stringBits('Hi') → 'H'
 stringBits('Heeololeo') → 'Hello'
 
-###11 stringSplosion
+### 11 stringSplosion
 
 Given a non-empty string like "Code" return a string like "CCoCodCode".
 
@@ -182,24 +183,24 @@ stringSplosion('Code') → 'CCoCodCode'
 stringSplosion('abc') → 'aababc'
 stringSplosion('ab') → 'aab'
 
-###12 changeReturn 
+### 12 changeReturn 
 
 Create a change return with any number of coins using as few lines as possible.
 
-###13 countDuplicates
+### 13 countDuplicates
 
 Write a function that returns the number of duplicate characters in a string.
 
-###14 findMissing 
+### 14 findMissing 
 
 Given two lists where the second list has all the same elements as the first save one
 in no particular order, return the element that's missing from the second list.
 
-###15 loneSum
+### 15 loneSum
 
 Find the sum of all the numbers that appear only once in an array.  
 
-###16 luckySum
+### 16 luckySum
 
 Given 3 int values, a b c, return their sum. 
 However, if one of the values is 13 then it does not count towards the sum and values to its right do not count. 
@@ -209,7 +210,7 @@ lucky_sum(1, 2, 3) → 6
 lucky_sum(1, 2, 13) → 3
 lucky_sum(1, 13, 3) → 1
 
-###17 outlier 
+### 17 outlier 
 
 Find the Parity Outlier
 
@@ -224,12 +225,12 @@ For example:
 > outlier([160, 3, 1719, 19, 11, 13, -21])
 > 160
 
-###18 promises
+### 18 promises
 
 Create a new promise that may succeed or fail.  
 Call the promise with .then and .catch.  
 
-###19 queenKing
+### 19 queenKing
 
 Given an imaginary chess board of size m x n including only the Queen and the King write a function 
 that takes the positions (coordinates) of both the Queen and the King as parameters and returns a boolean 
@@ -239,7 +240,7 @@ function threatens(qX, qY, kX, kY) {
   // ...
 }
 
-###19 sumDigPow
+### 20 sumDigPow
 
 Take a Number And Sum Its Digits Raised To The Consecutive Powers And ...Eureka!!
 
@@ -269,19 +270,19 @@ If there are no numbers of this kind in the range [a, b] the function should out
 
 sumDigPow(90, 100) ==> []
 
-###20 closures 
+### 21 closures 
 
 Write a simple closure. Then write a closure using an arrow function and an IIFE.  
 
-###21 recursion
+### 22 recursion
 
 Write simple recursive functions.  
 
-##22 binary search
+## 23 binary search
 
 Write a binary search algorithm.  
 
-###23 sever report CLI 
+### 24 sever report CLI 
 
 The input is a JSON object where keys are node names and values are the results from each
 node. A result is a JSON object with arbitrary keys and string values.
