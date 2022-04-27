@@ -3,7 +3,7 @@
 
 ## Author 
 
-Jenna Tucker @ jenna.m.tucker@gmail.com || 857-366-0630
+Jenna Tucker
 
 ## Running these scripts:
 
